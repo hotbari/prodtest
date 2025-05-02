@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "prodtest"
+version = "0.1.0"
+description = "prodtest"
+authors = ["ghkahr01@naver.com"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "4.2.4"
+djangorestframework = "3.14.0"
+
+[tool.poetry.dev-dependencies]
+black = "24.3.0"
+isort = "5.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
